@@ -1,0 +1,19 @@
+.app-footer:not(.hide) ~ .app-body {
+    padding-bottom: 23.5rem !important;
+    min-height: 70rem !important;
+}
+.introduction{
+    margin-top: -3.5rem;
+}
+.welcome{
+    opacity: 0;
+    top:-65px !important;
+    transition: top .4s ease-in,opacity .2s ease-in .2s;
+    -webkit-transition: top .4s ease-in,opacity .2s ease-in .2s;
+}
+.welcome.visible{
+    opacity: 1;
+    top:0px !important;
+    transition: top .4s ease-in,opacity .2s ease-in .2s;
+    -webkit-transition: top .4s ease-in,opacity .2s ease-in .2s;
+}
